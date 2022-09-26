@@ -10,7 +10,7 @@ Counts cars in traffic
 ## Libraries/Tools used
 
 * SBT - simple build tool
-* FS2 streams - provides concurrent functional reactive streams
+* FS2 streams - provides concurrent functional IO via streams
 * ScalaTest for unit testing
 
 ## How to setup and run the project

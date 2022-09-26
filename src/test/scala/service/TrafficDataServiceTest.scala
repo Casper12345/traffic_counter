@@ -111,7 +111,7 @@ class TrafficDataServiceTest extends AsyncFlatSpec with Matchers {
 
   }
 
-  it should "check that last tree records in the stream" in {
+  it should "check that last tree records in the stream are taken into consideration" in {
     val carsStream = Stream[IO, CarsCount](
       CarsCount(LocalDateTime.parse("2021-12-01T20:00"), 13),
       CarsCount(LocalDateTime.parse("2021-12-01T20:30"), 11),
